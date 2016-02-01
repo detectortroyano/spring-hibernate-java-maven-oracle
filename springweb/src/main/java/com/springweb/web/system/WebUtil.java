@@ -56,8 +56,6 @@ public final class WebUtil{
 			roles.add("ROLE_ADMIN");
 		}else if ( role.equals( System.ROLE_USER_DB ) ) {
 			roles.add("ROLE_USER");
-		}else if ( role.equals( System.ROLE_ADMINISTRADOR_TARIFAS_DB ) ) {
-			roles.add("ROLE_ADMINISTRADOR_TARIFAS");
 		}
 		return roles;
 	}	

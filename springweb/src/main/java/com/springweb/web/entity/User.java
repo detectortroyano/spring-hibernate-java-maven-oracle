@@ -24,7 +24,7 @@ public class User implements java.io.Serializable{
 	 	@Column(name="ID", unique=true, nullable=false, precision=22, scale=0)	 	
 	    private Integer id;
 	     
-	    @Column(name="LOGIN")
+	    @Column(name="NAME")
 	    private String name;
 	 
 	    @Column(name="PASSWORD")
